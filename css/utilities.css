@@ -1,0 +1,38 @@
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+  }
+
+  .flex-1{
+      flex:1;
+  }
+
+ .btn{
+     padding : 0.8rem 2rem;
+     font-size: 1rem;
+     font-weight: 600px;
+     border:2px solid transparent;
+     outline: none;
+     cursor: pointer;
+ }
+ .btn-primary{
+     background: var(--primary);
+     color: black;
+ }
+ .section-heading {
+     color : var(--secondary);
+     text-align: center;
+     margin-bottom: 1rem;
+     line-height: 0.5rem;
+     font-size: 2rem;
+     
+ }
